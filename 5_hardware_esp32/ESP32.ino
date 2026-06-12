@@ -13,11 +13,11 @@
 #include <Adafruit_SSD1306.h>
 
 // --- ตั้งค่าอุปกรณ์ ---
-const char* userToken = "11345"; 
-const char* serialNumber = "SN-FSH64G4";
-const char* ssid = "iPhone";
-const char* password = "12345678";
-const char* mqtt_server = "172.20.10.4"; 
+const char* userToken = "your TokenID"; 
+const char* serialNumber = "your Serial Number";
+const char* ssid = "your WIFI Name";
+const char* password = "your WiFi Password";
+const char* mqtt_server = "your mqtt IP"; 
 
 #define DHTPIN 32
 #define DHTTYPE DHT22
